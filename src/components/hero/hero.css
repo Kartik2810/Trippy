@@ -1,0 +1,55 @@
+.i-container {
+  width: 100%;
+  height: 100vh;
+}
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-text {
+  position: absolute;
+  width: 70%;
+  height: auto;
+  color: white;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.search-bar {
+  width: 100%;
+  height: 30%;
+  border-radius: 10px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  margin-top: 30px;
+}
+.form-control {
+  border-radius: 20px;
+  background-color: rgb(220, 218, 224);
+}
+.range {
+  color: blue;
+}
+.btn {
+  background: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  font-size: 20px;
+  border-radius: 23px;
+  margin-top: 30px;
+  align-content: center;
+  padding: 5px 50px;
+}
+.btn:hover {
+  box-shadow: 1px 5px 10px rgb(0, 0, 0);
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
